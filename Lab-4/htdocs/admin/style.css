@@ -1,0 +1,35 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+}
+
+.w2ui-msg-button.w2ui-msg-max {
+	display: none;
+}
+
+#Autentificare {
+	position: absolute;
+	width: 390px;
+	height: 180px;
+	top: calc(50% - 180px / 2);
+	left: calc(50% - 390px / 2);
+}
+
+#Autentificare .w2ui-field.w2ui-span6 > label {
+	width: 50px;
+}
+
+#Autentificare .w2ui-field.w2ui-span6 > div {
+	margin-left: 58px;
+}
+
+#Interfata{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}

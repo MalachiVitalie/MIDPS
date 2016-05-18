@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	color: #fff;
+	margin-bottom: 20px;
+	text-shadow: 0 0 160px #000;
+	font-weight: 300;
+	padding-bottom: 0;
+	padding-top: 0;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	letter-spacing: 0.02em;
+	font-size: 4.28571rem;
+	line-height: 1.66667em;
+}
+
+p {
+	color: #e6e6e6;
+	font-weight: normal;
+	font-size: 1.28571rem;
+	line-height: 1.333em;
+	padding-bottom: 0;
+	padding-top: 0;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-inverse {
+	transition: none 0s ease 0s;
+}
+
+.btn-inverse span.active {
+	display: none;
+}
+
+.btn-inverse:hover {
+	background-color: #fff;
+	transition: none 0s ease 0s;
+}
+
+.btn-inverse:hover span.inactive {
+    display: none;
+}
+
+.btn-inverse:hover span.active {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    z-index: 10;
+}
+
+.btn, a.btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: thin solid #fff;
+    border-radius: 2px;
+    color: #fff;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    top: 50px;
+    font-size: 0.7em;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 45px;
+    margin-top: 20px;
+    padding: 0 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.btn span.active {
+	color: black;
+}
+
+body > video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -9999;
+}

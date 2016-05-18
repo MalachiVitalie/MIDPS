@@ -1,0 +1,1 @@
+document.adoptNode(node.adoptNode.call(this, args?))
